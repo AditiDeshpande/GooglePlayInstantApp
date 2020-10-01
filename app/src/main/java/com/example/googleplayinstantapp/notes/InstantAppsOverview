@@ -1,0 +1,9 @@
+Google Play Instant Apps
+
+With Google Play Instant , people can use an app or game without
+installing it first.
+Android's new app publishing format , the Android App Bundle makes it
+easier than ever to offer a Google Play Instant Experience.
+U can build and publish one app bundle artifact(?) to google play
+containing both instant and feature modules.
+Build with Cocos(?) and Unity plug ins(?)

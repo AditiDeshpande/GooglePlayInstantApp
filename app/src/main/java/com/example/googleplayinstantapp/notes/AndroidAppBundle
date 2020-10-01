@@ -1,0 +1,29 @@
+Android App Bundle
+
+New publishing format launched in 2018
+
+
+*Note
+In the second half of 2021 , new apps will be required to publish
+with the Android App Bundle on Google Play. New Apps larger than 150 MB
+must use either Play Feature Delivery or Play Asset Deliver.
+
+An Android App Bundle is a publishing format that includes all
+ur app's compiled code and resources , and defers (postpones)
+APK generation and signing to Google Play.
+Google play uses ur app bundle to generate and serve optimized APKs
+for each device config. so only the code and resources needed for a
+specific device are downloaded to run ur app. U no longer have to
+build , sign , and manage multiple APKs to optimize support for
+different devices and users get smaller , more-optimized downloads.
+
+When u use app bundle format to publish ur app , u can also optionally
+take advantage of Play Feature Delivery , which allows u to add feature
+modules to ur app project. These modules contain features and resources
+that u can choose not to include when users first download and
+install ur app. Using the play core library ur app later request
+to download those modules. Google play will serve only the code and
+resources for that module to the device.
+
+
+
